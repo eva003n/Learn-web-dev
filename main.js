@@ -40,11 +40,11 @@ setTimeout(()=>{
 }
 setInterval(downloading,5000);
 
-/*setInterval(() => {
-  showNav();
-}, 2000);
-setInterval(() => {
- hideNav();
-}, 4000);*/
-
+/*const info=document.querySelector('.info p')
+info.addEventListener('click',()=>{
+  const infoBox=document.createElement('div');
+  infoBox.setAttribute('class','infobox')
+  infoBox.textContent='lorem20'
+  info.appendChild(infoBox)
+})*/
 
